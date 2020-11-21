@@ -38,7 +38,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Styde\\Whetstone\\Providers\\WhetstoneServiceProvider"
+                "Styde\\Whetstone\\WhetstoneServiceProvider"
             ]
         }
     }
