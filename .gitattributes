@@ -1,0 +1,7 @@
+tests/                 export-ignore
+phpunit.xml            export-ignore
+.git*                  export-ignore
+.php_cs                export-ignore
+.editorconfig          export-ignore
+CHANGELOG.md           export-ignore
+CONTRIBUTING.md        export-ignore
