@@ -2,6 +2,14 @@
 
 namespace Styde\Whetstone;
 
+/**
+ * Class TestTemplateBuilder
+ *
+ * @method self assertRender($expectedHtml)
+ * @method self assertContains($expectedHtml)
+ *
+ * @package Styde\Whetstone
+ */
 class TestTemplateBuilder
 {
     /**
