@@ -7,6 +7,7 @@ namespace Styde\Whetstone;
  *
  * @method self assertRender($expectedHtml)
  * @method self assertContains($expectedHtml)
+ * @method self assertNotContains($expectedHtml)
  *
  * @package Styde\Whetstone
  */
