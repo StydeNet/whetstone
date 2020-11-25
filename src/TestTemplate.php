@@ -41,6 +41,16 @@ class TestTemplate extends TestView
         return $this;
     }
 
+    public function assertNotContains($expectedHtml): self
+    {
+        PHPUnit::assertStringNotContainsString(
+            $this->indentHtml($expectedHtml),
+            $this->indentHtml($this->rendered)
+        );
+
+        return $this;
+    }
+
     private function indentHtml(string $html)
     {
         return $this->indenter->indent($html);
